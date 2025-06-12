@@ -51,10 +51,6 @@ El archivo de salida es Resultados_CFDI.csv
 
     > pip install -r requirements.txt
 
-3.- Documento PDF en la ruta del script
+3.- Documento PDF en la ruta del entrada. Ejemplo dentro de una carpeta ./pdf y ./csv para la salida
 4.- Python (ejecutado con python 3.12)
-
-## TODO
-
-- Input parametrizable
-- Output CSV parametrizable
+    > python '.\import PDF to CSV.py' pdf/resultados.pdf csv/out.csv
